@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b9e631e703e742a77955f6bbf62e647ad774d12e140a75eed243631320be3445
-size 211
+# UE 生成目录
+Binaries/
+Build/*/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# 归档与备份
+*.zip
+*.blend1
+
+# 其他
+*.pdb
+*.log
+*.tmp
+.DS_Store
